@@ -5,7 +5,7 @@
 In order to select an fit model for the data, I choses Logistic Regression, Decision Tree Classifier, RandomForest Classifier to test the fitness. <br>
 Based on ROC curve, I found that the best performance of the model is random forest.<br>
 Therefore, this dataset is recommended to apply random forest to predict the survival rate.<br>
- ![Image](https://github.com/Euphieyang/Titanic-project/blob/main/%E6%93%B7%E5%8F%968.PNG)
+ 
 <br>
 For the feature importance, I apply KBest and ExtraTreesClassifier, both are from sklearn to help me find out which feature is important for the model.<br>
 The results from the two model are different, but both of them select Sex_male and Fare as important facors.<br>
